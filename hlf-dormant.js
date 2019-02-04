@@ -1,3 +1,7 @@
+// Copyright IBM Corp All Rights Reserved.
+//
+// SPDX-License-Identifier: Apache-2.0
+
 var lineReader = require('readline').createInterface({
   input: require('fs').createReadStream('dormant-crs.txt')
 });
