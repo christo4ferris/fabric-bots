@@ -1,0 +1,9 @@
+Fabric Bots
+===========
+
+hlf-dormant.sh - script to query gerrit for CRs that have aged past two weeks, and then either list those that need reviews, or post a comment requesting the OP address any review comments or abandon.
+hlf-dormant.js - node.js program to filter out CRs that have been dormant 
+hlf-unreviewed.js - node.js program to filter out CRs that need reviewing
+hlf-bump.sh - script to post comment requesting user address comments or abandon per policy
+
+requires a file named 'user' with the Gerrit User Id of the user running the ssh gerrit commands in hlf-dormant.sh and hlf-bump.sh
